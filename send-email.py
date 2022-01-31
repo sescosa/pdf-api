@@ -7,10 +7,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from secrets import sender_email, receiver_email, password
 
-"""
-https://fedingo.com/how-to-send-html-mail-with-attachment-using-python/
-"""
-
 msg = MIMEMultipart("alternative")
 msg["Subject"] = "Pago Curso Econometría - Pam Learning"
 msg["From"] = sender_email

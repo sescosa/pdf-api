@@ -1,12 +1,7 @@
 import requests
 import urllib.parse
 import pandas as pd
-
-"""
-https://www.codementor.io/@garethdwyer/create-pdf-files-from-templates-with-python-and-google-scripts-p63kal1vb
-"""
-
-url = "https://script.google.com/macros/s/AKfycbwWSdgAyjmbQ-ezQq5u5bFViDbFGdYt1fWmcpH5e8nWTzbFQM9i/exec?"
+from secrets import url
 
 payments = pd.read_csv('tutor_payments.csv')
 
